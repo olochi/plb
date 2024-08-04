@@ -1,0 +1,47 @@
+QDialog {
+    background-color: qlineargradient(x1:0, y1:0, x2:0, y2:1, stop:0 #102457, stop:0.5 #1c4873,  stop:1 #102457);
+    color: #ffffff;
+}
+
+QFrame {
+    background-color: #4b546f;
+}
+
+QWidget#widget_s1_up11, #widget_s1_up12, #widget_s1_up21, #widget_s1_up22, #widget_s1_right1, #widget_s1_right2, #widget_s1_right3, #widget_s1_right4 {
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+/*    background-color: #037fb5;*/
+}
+
+QLabel {
+    color: #ffffff;
+}
+
+QLabel#label_4, #label_42, #label_74, #label_75, #label_76{
+    background-color: #037fb5;
+/*    border: none;*/
+/*    border: 1px solid white;*/
+}
+
+QLabel#label_86, #label_87, #label_88, #label_89{
+    border: 1px solid white;
+/*    background-color: #037fb5;*/
+}
+
+QFrame#frame_6, #frame_7, #frame_8{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0);
+/*    background-color: #037fb5;*/
+}
+
+QLabel#label_25, #label_realtime{
+    background-color: rgba(0, 0, 0, 0);
+/*    border-image: none;*/
+/*    border: none;*/
+/*    border: 1px solid white;*/
+
+}
+
+
+
+

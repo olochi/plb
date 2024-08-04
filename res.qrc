@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/">
+        <file>icon/airpressure.png</file>
+        <file>icon/all.png</file>
+        <file>icon/all_checked.png</file>
+        <file>icon/field.png</file>
+        <file>icon/field_checked.png</file>
+        <file>icon/green.png</file>
+        <file>icon/humidity.png</file>
+        <file>icon/main.css</file>
+        <file>icon/red.png</file>
+        <file>icon/temperature.png</file>
+        <file>icon/title_png.png</file>
+        <file>icon/wind direction.png</file>
+        <file>icon/windspeed.png</file>
+        <file>icon/main_show.css</file>
+        <file>icon/return.png</file>
+    </qresource>
+</RCC>

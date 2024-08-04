@@ -1,0 +1,100 @@
+QMainWindow{
+    background-color: rgb(4, 14, 68);
+}
+
+QTabWidget::pane{
+    background-color: transparent;
+    border: 0px solid red;
+}
+
+QTabBar::tab:!selected{
+    background-color: transparent;
+    color: #6573bf;
+}
+
+QTabBar::tab:selected{
+    background-color: transparent;
+    color: white;
+}
+
+QLabel#label_title{
+    background-color: #1a2d97;
+    color: white;
+    border: none;
+}
+
+
+QPushButton#button_return{
+    background-color: transparent;
+    color: white;
+}
+
+
+/*按钮普通态*/
+QPushButton#pushButton_all,#pushButton_humidity, #pushButton_pressure, #pushButton_tempreture, #pushButton_winddirection, #pushButton_windspeed,
+#pushButton_WPLspeed, #pushButton_WPLtemperature, #pushButton_WPLpressure, #pushButton_all_flowfiled
+{
+    /*字体为微软雅黑*/
+    font-family:Microsoft Yahei;
+    /*字体大小为20点*/
+    font-size: 15px;
+
+    /*字体颜色为白色*/
+    color:white;
+    /*背景颜色*/
+    background-color: #26356a;
+    /*边框圆角半径为8像素*/
+/*    border-radius:8px;*/
+/*    iconSize:16px 16px;
+    icon: url(:/icon/filed.png) off, url(:/icon/filed_checked.png) on;*/
+}
+
+QPushButton#pushButton_start, #pushButton_start_2
+{
+    /*字体为微软雅黑*/
+    font-family:Microsoft Yahei;
+
+    /*字体颜色为白色*/
+    color:white;
+    /*背景颜色*/
+    background-color: #26356a;
+
+    border-radius: 15px;
+    border:3px solid rgb(121, 121, 121)
+
+}
+
+
+/*按钮停留态*/
+/*QPushButton:hover
+{
+    background-color:rgb(44 , 137 , 255);
+}*/
+
+QPushButton#pushButton_all:checked,#pushButton_humidity:checked, #pushButton_pressure:checked, #pushButton_tempreture:checked, #pushButton_winddirection:checked, #pushButton_windspeed:checked,
+#pushButton_WPLspeed:checked, #pushButton_WPLtemperature:checked, #pushButton_WPLpressure:checked, #pushButton_all_flowfiled:checked{
+/*    background-color:#f0f0f0;*/
+    background: white;
+/*    background-color : red;*/
+    color: #52a9ff;
+/*    border: 4px solid #f75c33;*/
+    border: none;
+}
+
+/*按钮按下态*/
+QPushButton#pushButton_all:pressed,#pushButton_humidity:pressed, #pushButton_pressure:pressed, #pushButton_tempreture:pressed, #pushButton_winddirection:pressed, #pushButton_windspeed:pressed,
+#pushButton_WPLspeed:pressed, #pushButton_WPLtemperature:pressed, #pushButton_WPLpressure:pressed, #pushButton_all_flowfiled:pressed
+{
+    background-color:#f0f0f0;
+    color: #009dff;
+/*    border: 4px solid #f75c33*/
+    border: none;
+}
+
+QFrame#frame_tab_weather, #frame_tab_flowfiled, #frame_tab_AVG, #frame_tab_RP{
+    background-color: rgb(11, 13, 102);
+    border-radius: 15px;
+    border:3px solid rgb(121, 121, 121);
+
+}
+
